@@ -1,0 +1,70 @@
+[19:54:09] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-LTS; Amazon.com Inc. Corretto-21.0.5.11.1) on Windows 11 10.0 (amd64)
+[19:54:09] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-222-main@9b1798d (2025-03-27T13:35:40Z) for Minecraft 1.21.4
+[19:54:10] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[19:54:10] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'F:\Coding\Codes\currency\curreny-plugin\build\libs\curreny-plugin-1.0-SNAPSHOT-all.jar'...
+[19:54:11] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'F:\Coding\Codes\currency\curreny-plugin\build\libs\curreny-plugin-1.0-SNAPSHOT-all.jar' in 1229ms.
+[19:54:12] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[19:54:12] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - CurrencyPlugin (1.0-SNAPSHOT)
+[19:54:15] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[19:54:17] [ServerMain/INFO]: Loaded 1370 recipes
+[19:54:17] [ServerMain/INFO]: Loaded 1481 advancements
+[19:54:17] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[19:54:17] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 194,8ms
+[19:54:18] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[19:54:18] [Server thread/INFO]: Loading properties
+[19:54:18] [Server thread/INFO]: This server is running Paper version 1.21.4-222-main@9b1798d (2025-03-27T13:35:40Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[19:54:18] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[19:54:18] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:54:18] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:54:18] [Server thread/INFO]: [MoonriseCommon] Paper is using 4 worker threads, 1 I/O threads
+[19:54:18] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[19:54:19] [Server thread/INFO]: Default game type: SURVIVAL
+[19:54:19] [Server thread/INFO]: Generating keypair
+[19:54:19] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:54:19] [Server thread/INFO]: Using default channel type
+[19:54:19] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[19:54:19] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[19:54:19] [Server thread/INFO]: [CurrencyPlugin] Loading server plugin CurrencyPlugin v1.0-SNAPSHOT
+[19:54:19] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:54:19] [Server thread/INFO]: Preparing level "world"
+[19:54:19] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:54:19] [Server thread/INFO]: Preparing spawn area: 0%
+[19:54:20] [Server thread/INFO]: Preparing spawn area: 0%
+[19:54:20] [Server thread/INFO]: Time elapsed: 856 ms
+[19:54:20] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[19:54:20] [Server thread/INFO]: Preparing spawn area: 0%
+[19:54:20] [Server thread/INFO]: Time elapsed: 168 ms
+[19:54:20] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[19:54:20] [Server thread/INFO]: Preparing spawn area: 0%
+[19:54:20] [Server thread/INFO]: Time elapsed: 125 ms
+[19:54:20] [Server thread/INFO]: [CurrencyPlugin] Enabling CurrencyPlugin v1.0-SNAPSHOT
+[19:54:21] [Server thread/WARN]: [FieldDeclaration] private final java.util.List com.eripe14.currency.reward.RewardConfig.reward: final fields (especially with default value) may prevent loading of the data. Removal of the final modifier is strongly advised.
+[19:54:21] [Server thread/WARN]: [FieldDeclaration] public final java.util.List com.eripe14.currency.shop.ShopItemConfig.items: final fields (especially with default value) may prevent loading of the data. Removal of the final modifier is strongly advised.
+[19:54:21] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[19:54:21] [Server thread/INFO]: [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5b3d79ee
+[19:54:21] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[19:54:22] [Server thread/INFO]: [spark] Starting background profiler...
+[19:54:22] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[19:54:22] [Server thread/INFO]: Done preparing level "world" (2.942s)
+[19:54:22] [Server thread/INFO]: Running delayed init tasks
+[19:54:22] [Server thread/INFO]: Done (13.284s)! For help, type "help"
+[19:55:05] [User Authenticator #0/INFO]: UUID of player eripe14 is 15835003-0561-42ae-ba5f-8676ab32932f
+[19:55:05] [Server thread/INFO]: eripe14 joined the game
+[19:55:05] [Server thread/INFO]: eripe14[/127.0.0.1:61389] logged in with entity id 74 at ([world]-15.679285823195492, 124.73315424515971, -28.73453822307213)
+[19:55:06] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 0b48fb8a-e4b4-4e8d-8bdb-c1cf86801617, mapped to Villager['Librarian'/80, uuid='0b48fb8a-e4b4-4e8d-8bdb-c1cf86801617', l='ServerLevel[world]', x=-35.18, y=126.00, z=-63.81, cpos=[-3, -4], tl=0, v=true], can't add Villager['Librarian'/92, uuid='0b48fb8a-e4b4-4e8d-8bdb-c1cf86801617', l='ServerLevel[world]', x=-34.55, y=126.00, z=-64.26, cpos=[-3, -5], tl=0, v=false]
+[19:55:06] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 90d1639e-67a5-4f43-8195-9c395b2f0dfa, mapped to Chicken['Chicken'/40, uuid='90d1639e-67a5-4f43-8195-9c395b2f0dfa', l='ServerLevel[world]', x=-20.26, y=95.00, z=62.26, cpos=[-2, 3], tl=0, v=true], can't add Chicken['Chicken'/110, uuid='90d1639e-67a5-4f43-8195-9c395b2f0dfa', l='ServerLevel[world]', x=-25.60, y=96.00, z=67.55, cpos=[-2, 4], tl=0, v=false]
+[19:55:10] [Server thread/INFO]: eripe14 issued server command: /currency balance
+[19:55:12] [Server thread/INFO]: eripe14 issued server command: /currency balance eripe14
+[19:55:16] [Server thread/INFO]: eripe14 issued server command: /currency give eripe14 1000
+[19:55:18] [Server thread/INFO]: eripe14 issued server command: /currency balance eripe14
+[19:55:37] [Server thread/INFO]: eripe14 issued server command: /currency balance
+[19:55:44] [Server thread/INFO]: eripe14 issued server command: /currency balance
+[19:55:48] [Server thread/INFO]: eripe14 issued server command: /currency set eripe14 100
+[19:55:49] [Server thread/INFO]: eripe14 issued server command: /currency balance
+[19:55:56] [Server thread/INFO]: eripe14 issued server command: /shop list
+[19:56:04] [Server thread/INFO]: eripe14 issued server command: /shop buy WOODEN_AXE
+[19:56:12] [Server thread/INFO]: eripe14 issued server command: /shop buy DIAMOND_CHESTPLATE
+[19:56:17] [Server thread/INFO]: eripe14 issued server command: /currency set eripe14 10000
+[19:56:20] [Server thread/INFO]: eripe14 issued server command: /shop buy DIAMOND_CHESTPLATE
+[19:56:25] [Server thread/INFO]: eripe14 issued server command: /currency balance

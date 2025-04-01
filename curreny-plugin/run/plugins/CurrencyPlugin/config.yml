@@ -1,0 +1,42 @@
+storage:
+  prefix: currency
+  url: jdbc:mysql://localhost:3306/currency?user=root&password=
+rewardConfig:
+  reward:
+  - id: 1
+    goalAmount: 10
+    command: currency give {player} 100
+    filter: DIAMOND_ORE
+    type: MINING
+  - id: 2
+    goalAmount: 10
+    command: currency give {player} 100
+    filter: EMERALD_ORE
+    type: MINING
+  - id: 3
+    goalAmount: 10
+    command: currency give {player} 100
+    filter: ZOMBIE
+    type: KILLING
+  - id: 4
+    goalAmount: 10
+    command: currency give {player} 100
+    filter: SKELETON
+    type: KILLING
+  - id: 5
+    goalAmount: 1
+    command: currency give {player} 100
+    filter: NONE
+    type: TRADING
+shopItemConfig:
+  items:
+  - material: DIAMOND_SWORD
+    price: 100.0
+  - material: DIAMOND_CHESTPLATE
+    price: 200.0
+  - material: DIAMOND_LEGGINGS
+    price: 150.0
+  - material: DIAMOND_BOOTS
+    price: 50.0
+  - material: DIAMOND_HELMET
+    price: 75.0

@@ -1,0 +1,22 @@
+invalidUsage: '&4Wrong command usage &8>> &7{COMMAND}.'
+invalidUsageHeader: '&cWrong command usage!'
+invalidUsageEntry: '&8 >> &7{SCHEME}'
+noPermission: '&4You do not have permission to use this command!'
+cantFindPlayer: '&4Can not find that player!'
+onlyForPlayer: '&4Command only for players!'
+giveMoney: <color:#22DD22>✔</color> <color:#00FF7F>You gave <color:#FFFF55>{amount}$</color>
+  to <color:#FFFF55>{player}</color>!
+setMoney: <color:#22DD22>✔</color> <color:#00FF7F>You set <color:#FFFF55>{amount}$</color>
+  to <color:#FFFF55>{player}</color>!
+yourMoneySet: <color:#22DD22>✔</color> <color:#00FF7F>Your money has been set to <color:#FFFF55>{amount}$</color>!
+notEnoughMoney: <color:#FF2222>❌</color> <color:#FF4444>You don't have enough money
+  to buy this item!
+receivedMoney: <color:#22DD22>✔</color> <color:#00FF7F>You received <color:#FFFF55>{amount}$</color>!
+balance: <color:#22DD22>✔</color> <color:#00FF7F>Your balance is <color:#FFFF55>{amount}$</color>!
+balanceOther: <color:#22DD22>✔</color> <color:#00FF7F>Balance of <color:#FFFF55>{player}</color>
+  is <color:#FFFF55>{amount}$</color>!
+shopListHeader: <color:#2299FF>ℹ</color> <color:#00AAFF>Shop list:</color>
+shopListEntry: <color:#2299FF>•</color> <color:#00AAFF>{material} - {price}$</color>
+boughtItem: <color:#22DD22>✔</color> <color:#00FF7F>You bought <color:#FFFF55>{material}</color>
+  for <color:#FFFF55>{price}$</color>!
+cannotFindItem: <color:#FF2222>❌</color> <color:#FF4444>Can't find item <color:#FFFF55>({material})</color>!
